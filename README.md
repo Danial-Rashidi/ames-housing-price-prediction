@@ -10,6 +10,21 @@ The goal of this project is to predict `SalePrice` for residential properties ba
 
 The target variable is highly skewed, so `SalePrice` is transformed using `log1p` during training.
 
+# Dataset
+
+This project uses the Ames Housing dataset from Kaggle's House Prices: Advanced Regression Techniques competition.
+
+The original dataset is not included in this repository.
+
+To run the notebook, download the dataset from Kaggle and place the following files in the project directory:
+
+- `train.csv`
+- `test.csv`
+
+The dataset is available through the official Kaggle competition page:
+
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
+
 ## Approach
 
 ### 1. Data Exploration
@@ -85,17 +100,3 @@ The final submission was generated as:
 
 `submission_final.csv`
 
-# Dataset
-
-This project uses the Ames Housing dataset from Kaggle's House Prices: Advanced Regression Techniques competition.
-
-The original dataset is not included in this repository.
-
-To run the notebook, download the dataset from Kaggle and place the following files in the project directory:
-
-- `train.csv`
-- `test.csv`
-
-The dataset is available through the official Kaggle competition page:
-
-https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques

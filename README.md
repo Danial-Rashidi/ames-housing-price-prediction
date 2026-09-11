@@ -85,16 +85,17 @@ The final submission was generated as:
 
 `submission_final.csv`
 
-## Project Structure
+# Dataset
 
-```text
-ames-housing-price-prediction/
-│
-├── README.md
-├── ames_housing_final.ipynb
-├── submission_final.csv
-├── requirements.txt
-├── .gitignore
-│
-└── data/
-    └── README.md
+This project uses the Ames Housing dataset from Kaggle's House Prices: Advanced Regression Techniques competition.
+
+The original dataset is not included in this repository.
+
+To run the notebook, download the dataset from Kaggle and place the following files in the project directory:
+
+- `train.csv`
+- `test.csv`
+
+The dataset is available through the official Kaggle competition page:
+
+https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques
